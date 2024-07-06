@@ -1,0 +1,165 @@
+/* Main styles */
+.head-main {
+    background: url("./images/house.jpg");
+    background-size: cover;
+}
+
+/* Form styles */
+.modal-content-main {
+    position: absolute;
+    width: 611px;
+    height: 332px;
+    margin: 5% auto 15% auto; 
+    background-color: white;
+    border-radius: 20px;
+    z-index: 2;
+}
+
+.container-main {
+    padding: 16px;
+}
+
+
+/* Inputs */
+.user_login{
+    position: absolute;
+    width: 480px;
+    height: 55px;
+    left: 12%;
+    top: 47px;  
+    background-color: #CACACA;
+    box-sizing:content-box;
+    border-radius: 10px;    
+}
+
+.user_login::placeholder {
+    font-size: 1.2em;
+    color: black;
+    padding: 19px;
+}
+
+.user_password {
+    position: absolute;
+    width: 480px;
+    height: 55px;
+
+    background: #CACACA;
+    box-sizing:content-box;
+
+    top: 140px; 
+    left: 12%;   
+    border-radius: 10px;
+}
+
+.user_password::placeholder {
+    font-size: 1.2em;
+    color: black;
+    padding: 19px;
+}
+
+
+/* Buttons */
+.sign_in_btn-main {
+    position: absolute;
+    width: 105px;
+    height: 42px;
+ 
+    margin-left: 10%;
+    margin-top: 39%;
+
+    background: #000000;
+    border-radius: 10px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+}
+
+.register_btn-main {
+    float: right;
+    padding-right: 4%;
+    padding-top: 44.2%;
+
+    font-size: 15px;
+    color: blue;
+    background: transparent;
+    text-decoration-line: underline; 
+} 
+  
+.lost_your_password-main {
+    float: right;
+    padding-right: 8%;
+    padding-top: 44.2%;
+    
+    font-size: 15px; 
+    color: blue;
+    background: transparent;
+    text-decoration-line: underline; 
+} 
+
+
+/* Modal fo error */
+.modal_for_error-main {
+    display: none; 
+    position: fixed; 
+    z-index: 3; 
+    padding-top: 20px;  
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);   
+}
+  
+.modal_for_error_content-main {
+    background-color: #fefefe;
+    border: 1px solid #888; 
+    width: 800px;
+    height: 400px;
+    margin: 5% auto 15% auto; 
+    border-radius: 20px;
+    z-index: 2;
+}
+  
+.close_modal_for_error-main {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.close_modal_for_error-main:hover,
+.close_modal_for_error-main:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+  
+/* Classes for null value */
+.null_values, .not_find_user {
+    color: #000;
+    font-size: 16px;
+    width: 100%;
+    padding-right: 10%;
+    padding-top: 19%;
+}
+
+.username_null, .user_already_exists {
+    color: #000;
+    font-size: 14px;
+    padding-top: 19%;
+    padding-left: 6%;
+}
+
+.min_length_values {
+    color: #000;
+    font-size: 14px;
+    padding-top: 19%;
+    padding-left: 8%;
+    padding-right: 5%;
+}
+

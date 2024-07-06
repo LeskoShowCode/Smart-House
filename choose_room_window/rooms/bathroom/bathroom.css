@@ -1,0 +1,9 @@
+/* Main styles */
+.head-bathroom {
+    background: url("../../../images/bathroom.jpg");
+    background-size: cover;
+}
+
+.container-for-button-bathroom {
+    padding: 29px;
+}

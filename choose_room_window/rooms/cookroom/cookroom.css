@@ -1,0 +1,27 @@
+/* Main styles */
+.head-cookroom {
+    background: url("../../../images/cookroom.jpg");
+    background-size: cover;
+}
+
+.container-dishes, .make_dish  {
+    padding-top: 20px;
+}
+
+
+.make_dish {
+    color: black;
+}
+
+.close_choose_dishes {
+    background-color: black;
+    color: white;
+
+    margin-left: 37%;
+    padding: 10px 32px;
+    margin-top: 10%; 
+
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}

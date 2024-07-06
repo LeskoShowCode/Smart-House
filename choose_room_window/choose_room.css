@@ -1,0 +1,105 @@
+/* Form styles */
+.head-choose-room {
+    background: url("../images/house.jpg");
+    background-size: cover;
+}
+
+/* Form for text */
+.modal-choose-room-txt {
+    position: absolute;
+    width: 571px;
+    height: 160px;
+    margin: 5% auto 27% auto; 
+    background-color: white;
+    border-radius: 32px;
+    z-index: 2;
+}
+
+.container_for_txt {
+    padding: 16px;
+    padding-top: 4%;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: black;
+}
+
+
+/* Form for icons */
+
+/* Modal */
+.modal-choose-room {
+    width: 725px;
+    height: 140px;
+    margin: 5% auto 1% auto; 
+    left: 273px;
+    top: 200px;
+
+    background: #FFFFFF;
+    border-radius: 40px;
+    z-index: 2;
+}
+
+
+/* Icons */
+
+/* Cookroom */
+.cookroom {
+    width: 157px;
+    height: 89px;
+
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.cookroom_txt {
+    margin-left: 8%;
+}
+
+
+/* Bedroom */
+.bedroom {
+    width: 160px;
+    height: 89px;
+
+    margin-left: 14.9%;
+    margin-top: 0.4%;
+}
+
+.bedroom_txt {
+    margin-left: 13%;
+    margin-top: -5.5%;
+}
+
+
+/* Bathroom */
+.bathroom {
+    width: 160px;
+    height: 89px;
+
+    margin-left: 26%;
+    margin-top: 0.5%;
+}
+
+.bathroom_img {
+    width: 60%;
+}
+
+.bathroom_txt {
+    margin-left: 4%;
+    margin-top: 4.3%;
+}
+
+/* Livingroom */
+.livingroom {
+    width: 160px;
+    height: 89px;
+
+    margin-left: 34.5%;
+    margin-top: 0.2%;
+}
+
+.livingroom_txt {
+    margin-left: 6.7%;
+    margin-top: -2.9%;
+}
